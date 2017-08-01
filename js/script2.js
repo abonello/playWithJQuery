@@ -15,6 +15,7 @@ $(document).ready(function(){ //  When document has finished loading run the fol
             $("."+classNames[1]).css("background-color", "");
         }
         else {
+            $(".box").css("background", ""); // turn others off
             $("."+classNames[1]).css("background-color", "red");
         }
         
